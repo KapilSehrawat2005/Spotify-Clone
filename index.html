@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spotify - Web Player: Music for everyone</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="icon" href="assets/images/icons/spotify icon.png">
+</head>
+<body>
+	<div class="spotify-head">
+		<div class="navbar">
+			<div class="spotify-logo"><img src="assets/images/icons/social.png" alt="spotify-logo"></div>
+			<div class="search-bar">
+				<div class="home"><a href="#"><img src="assets/images/icons/home.png" alt="home-icon"></a></div>
+				<div class="search">
+					<img src="assets/images/icons/search.png" alt="search-icon">
+					<input type="text" placeholder="What do you want to play?">
+					<p>|</p>
+					<img src="assets/images/icons/browser.png" alt="Browser-icon" class="browser-img">
+				</div>
+			</div>
+			<div class="sign-up-login">
+				<div class="sign-up"><a href="#">Sign up</a></div>
+				<div class="log-in"><a href="#">Log in</a></div>
+			</div>
+		</div>
+		<div class="sidebar">
+			<div class="library">
+				<div class="library-icon"><img src="assets/images/icons/library.png" alt="library icon"></div>
+				<div class="library-content"><b>Your library</b></div>
+				<div class="library-plus"><a href="#"><img src="assets/images/icons/plus.png" alt="Plus Icon"></a></div>
+			</div>
+			<div class="sidebar-playlist">
+				<div class="sidebar-margin">
+					<h3>Create your first playlist</h3>
+					<p>it's easy,we we'll help you</p>
+					<div class="button"><b>Create Playlist</b></div>
+				</div>
+			</div>
+			<div class="sidebar-podcast">
+				<div class="sidebar-margin">
+					<h3>Let's find some podcasts to follow</h3>
+					<p>we'll keep you updated on new episodes</p>
+					<div class="button"><b>Browse podcasts</b></div>
+				</div>
+			</div>
+			<div class="spotify-center">
+				<li><a href="#">Legal</a></li>
+				<li><a href="#">Safety&Privacy Center</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Cookies</a></li>
+				<li><a href="#">About Ads</a></li>
+				<li><a href="#">Accessibility</a></li>
+				
+			</div>
+			<div class="cookies"><a href="#">Cookies</a></div>
+			<div class="language">
+				<a href="#"><img src="assets/images/icons/change-language-icon-vector-32727092.jpg" alt="Language Icon"><p>English</p></a>
+			</div>
+		</div>
+		<div class="main-content">
+			<div class="head-content">
+				<div class="artists">
+					<div class="artist-head">
+						<h2>Popular artists</h2>
+						<a href="#">Show all</a>
+					</div>
+					<div class="cards">
+						<div class="card">
+							<div class="card-img">
+								<img src="assets/images/artists/Pritam.jpg" alt="Pritam image">
+								<div class="play-btn" data-src="audio.mp3" data-title="Summer Vibes"	data-artist="Pritam"  	data-cover="assets/images/artists/Pritam.jpg"> ▶ </div>
+							</div>
+							<div class="card-heading">Pritam</div>
+							<div class="card-description">Artist</div>
+						</div>
+						<div class="card">
+							<div class="card-img">
+								<img src="assets/images/artists/Arijit Singh.jpg" alt="Arijit Singh image">
+								<div class="play-btn" data-src="audio.mp3" data-title="Summer Vibes"	data-artist="Pritam"  	data-cover="assets/images/artists/Arijit Singh.jpg"> ▶ </div>
+							</div>
+							<div class="card-heading">Arijit Singh</div>
+							<div class="card-description">Artist</div>
+						</div>
+						<div class="card">
+							<div class="card-img">
+								<img src="assets/images/artists/Sachin-Jigar.jpg" alt="Sachin-Jigar image">
+								<div class="play-btn" data-src="audio.mp3" data-title="Summer Vibes"	data-artist="Pritam"  	data-cover="assets/images/artists/Sachin-Jigar.jpg"> ▶ </div>
+							</div>
+							<div class="card-heading">Sachin-Jigar</div>
+							<div class="card-description">Artist</div>
+						</div>
+						<div class="card">
+							<div class="card-img">
+								<img src="assets/images/artists/A.R. Rahman.jpg" alt="A.R. Rahman image">
+								<div class="play-btn" data-src="audio.mp3" data-title="Summer Vibes"	data-artist="Pritam"  	data-cover="assets/images/artists/A.R. Rahman.jpg"> ▶ </div>
+							</div>
+							<div class="card-heading">A.R. Rahman</div>
+							<div class="card-description">Artist</div>
+						</div>
+						<div class="card">
+							<div class="card-img">
+								<img src="assets/images/artists/Vishal-Shekhar.jpg" alt="Vishal-Shekhar image">
+								<div class="play-btn" data-src="audio.mp3" data-title="Summer Vibes"	data-artist="Pritam"  	data-cover="assets/images/artists/Vishal-Shekhar.jpg"> ▶ </div>
+							</div>
+							<div class="card-heading">Vishal-Shekhar</div>
+							<div class="card-description">Artist</div>
+						</div>
+						<div class="card">
+							<div class="card-img">
+								<img src="assets/images/artists/atif aslam.jpg" alt="Atif Aslam image">
+								<div class="play-btn" data-src="audio.mp3" data-title="Summer Vibes"	data-artist="Pritam"  	data-cover="assets/images/artists/atif aslam.jpg"> ▶ </div>
+							</div>
+							<div class="card-heading">Atif Aslam</div>
+							<div class="card-description">Artist</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="albums">
+					<div class="albums-head">
+						<h2>Popular Albums and singles</h2>
+						<a href="#">Show all</a>
+					</div>
+					<div class="cards" style=" display: flex;flex-wrap: wrap;text-align: center;">
+							<div class="card">
+								<div class="card-img"><img src="assets/images/albums/Glory.jpg" alt="Pritam image"></div>
+								<div class="card-heading">Glory</div>
+								<div class="card-description">Yo Yo Honey Singh</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/albums/Aashiqui 2.jpg" alt="Pritam image"></div>
+								<div class="card-heading">Aashiqui 2</div>
+								<div class="card-description">Mithoon,Ankit Tiwari,<br>Jeet Gannguli</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/albums/yeh-jawani-hai-deewani.jpg" alt="Pritam image"></div>
+								<div class="card-heading">Yeh Jawaani Hai Deewani</div>
+								<div class="card-description">Pritam</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/albums/who.jpg" alt="Pritam image"></div>
+								<div class="card-heading">Who(Remixes)</div>
+								<div class="card-description">Jimin</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/albums/making-memories.jpg" alt="Pritam image"></div>
+								<div class="card-heading">Making Memories</div>
+								<div class="card-description">Karan Aujla, lkky</div>
+							</div>
+					</div>
+				</div>
+				<div class="radio">
+					<div class="radio-head">
+						<h2>Popular Radio</h2>
+						<a href="#">Show all</a>
+					</div>
+					<div class="cards" style=" display: flex;flex-wrap: wrap;text-align: center;">
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Radio/Arijit Radio.jpg" alt="Pritam image"></div>
+								<div class="card-description">With Sachin-Jigar,Amit Trivedi,<br>Mithoon and more</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Radio/Diljit Sosanjh.jpg" alt="Pritam image"></div>
+								<div class="card-description">With Karan Aujla,Shubh,AP <br> Dhillon and more</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Radio/Shreya Ghoshal.jpg" alt="Pritam image"></div>
+								<div class="card-description">With A.R. Rahman,Vishal- <br> Shekhar,Atif Aslam and more</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Radio/KK.jpg" alt="Pritam image"></div>
+								<div class="card-description">With Armaan Malik,Ankit Tiwari, <br>Atif Aslam and more</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Radio/A.R. Rahman.jpg" alt="Pritam image"></div>
+								<div class="card-description">With Badshah,Diljit Dosanjh, <br>Harrdy Sandhu and more</div>
+							</div>
+					</div>
+				</div>
+				<div class="chart">
+					<div class="chart-head">
+						<h2>Featured Charts</h2>
+						<a href="#">Show all</a>
+					</div>
+					<div class="cards" style=" display: flex;flex-wrap: wrap;text-align: center;">
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Chart/Top Songs Global.jpg" alt="Pritam image"></div>
+								<div class="card-description">Your weekly update of the most <br>played tracks right now-...</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Chart/Top-Songs-India.jpg" alt="Pritam image"></div>
+								<div class="card-description">Your weekly update of the most <br>played tracks right now-India.</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Chart/Top-50-Global.jpg" alt="Pritam image"></div>
+								<div class="card-description">Your daily update of the most <br>played tracks right now-...</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Chart/Top-50-India.jpg" alt="Pritam image"></div>
+								<div class="card-description">Your daily update of the most <br>played tracks right now-India.</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/Chart/Viral-50-Global.jpg" alt="Pritam image"></div>
+								<div class="card-description">Your daily update of the most <br>viral tracks right now-Global.</div>
+							</div>
+					</div>
+				</div>
+				<div class="india-best">
+					<div class="india-best-head">
+						<h2>India's Best</h2>
+						<a href="#">Show all</a>
+					</div>
+					<div class="cards" style=" display: flex;flex-wrap: wrap;text-align: center;">
+							<div class="card">
+								<div class="card-img"><img src="assets/images/indias best/I-Pop-Icons.jpg" alt="Pritam image"></div>
+								<div class="card-description">Hottest tracks from your <br> favourite I-Pop Icons.Cover-...</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/indias best/Bollywood Central.jpg" alt="Pritam image"></div>
+								<div class="card-description">Bollywood Central,jab baje toh <br> seedha dil ke centre mein lage...</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/indias best/Punjabi-101.jpg" alt="Pritam image"></div>
+								<div class="card-description">Ultimate 101 Punjabi Hits with <br> Karan Aujla</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/indias best/Kollywood-Cream.jpg" alt="Pritam image"></div>
+								<div class="card-description">Finest collection of Tamil Music <br> from the past 10 years Cover:...</div>
+							</div>
+							<div class="card">
+								<div class="card-img"><img src="assets/images/indias best/Tollywood-pearls.jpg" alt="Pritam image"></div>
+								<div class="card-description">The finest set of Telugu music <br> from the past 10 years. Cover: ..</div>
+							</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<footer>
+				<div class="main-footer">
+					<div class="company">
+						<p>Company</p>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">For the Record</a></li>
+					</div>
+					<div class="communities">
+						<p>Communities</p>
+						<li><a href="#">For Artists</a></li>
+						<li><a href="#">Developers</a></li>
+						<li><a href="#">Advertising</a></li>
+						<li><a href="#">Investors</a></li>
+						<li><a href="#">Vendors</a></li>
+					</div>
+					<div class="links">
+						<p>Useful links</p>
+						<li><a href="#">Support</a></li>
+						<li><a href="#">Free Mobile App</a></li>
+					</div>
+					<div class="plans">
+						<p>Spotify Plans</p>
+						<li><a href="#">Premium Individual</a></li>
+						<li><a href="#">Premium Duo</a></li>
+						<li><a href="#">Premium Family</a></li>
+						<li><a href="#">Premium Student</a></li>
+						<li><a href="#">Spotify Free</a></li>
+					</div>
+					<div class="social-media">
+						<div class="instagram"><a href="#"><img src="assets/images/icons/instagram.png" alt="instagram Icon"></a></div>
+						<div class="twitter"><a href="#"><img src="assets/images/icons/twitter.png" alt="Twitter Icon"></a></div>
+						<div class="facebook"><a href="#"><img src="assets/images/icons/facebook.png" alt=""></a></div>
+						
+					</div>
+				</div>
+						<hr style="opacity: 0.8; margin: 2rem;">
+				<div class="copyright">
+				<p>&copy;2025 Spotify AB</p>	
+				</div>
+			</footer>
+		</div>
+		<div class="audio-player" id="audioPlayer">
+			<div class="song-details">
+				<img id="currentCover" src="assets/images/default-cover.jpg" alt="Cover">
+				<div class="song-info">
+					<h4 id="currentTitle">No Song Selected</h4>
+					<p id="currentArtist">-</p>
+				</div>
+			</div>
+	
+			<div class="controls">
+				<div class="play-buttons">
+					<button class="control-btn" onclick="skip(-10)">⏮</button>
+					<button class="control-btn play-btn" onclick="togglePlay()">▶</button>
+					<button class="control-btn" onclick="skip(10)">⏭</button>
+				</div>
+	
+				<div class="progress-container">
+					<div class="progress-bar" onclick="seek(event)">
+						<div class="progress" id="progress"></div>
+					</div>
+					<div class="time-info">
+						<span id="currentTime">0:00</span> / 
+						<span id="totalTime">0:00</span>
+					</div>
+				</div>
+	
+				<div class="volume-control">
+					<span>Volume:</span>
+					<input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+				</div>
+	
+				<button class="close-btn" onclick="closePlayer()">✖</button>
+			</div>
+	
+			<audio id="audioElement">
+				<source src="audio.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
+		</div>
+	</div>
+	<script src="assets/js/index.js"></script>
+</body>
+</html>
