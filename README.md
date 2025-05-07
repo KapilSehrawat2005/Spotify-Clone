@@ -33,11 +33,9 @@ Welcome to my **Spotify Clone**! This is a front-end project built using only **
 
 ## 🖼️ Screenshots
 
-> You can add screenshots of your project here to show the UI.  
-> Place your images inside a folder like `assets/screenshots/` and update the paths below accordingly.
+
 
 | Music Player |
-|---------|--------------|
 | ![Music Player](assets/screenshots/player.png) |
 
 ---
