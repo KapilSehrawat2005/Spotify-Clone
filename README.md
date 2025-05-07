@@ -19,24 +19,6 @@ Welcome to my **Spotify Clone**! This is a front-end project built using only **
 - 📱 **Responsive layout** — works on both desktop and mobile
 - ❌ **Hide player** functionality with close button
 
----
-
-## 📂 Project Structure
-
-```plaintext
-Spotify-Clone/
-│
-├── assets/
-│   ├── images/
-│   │   └── (All album cover images)
-│   └── audio/
-│       └── (All MP3 files)
-│
-├── style.css         # CSS for styling the UI
-├── script.js         # JavaScript logic for player functionality
-├── index.html        # Main HTML file
-└── README.md         # This file
-```
 
 ---
 
@@ -54,7 +36,7 @@ Spotify-Clone/
 > You can add screenshots of your project here to show the UI.  
 > Place your images inside a folder like `assets/screenshots/` and update the paths below accordingly.
 
-| Home UI | Music Player |
+| Music Player |
 |---------|--------------|
 | ![Music Player](assets/screenshots/player.png) |
 
