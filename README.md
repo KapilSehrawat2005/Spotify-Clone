@@ -10,7 +10,7 @@ Welcome to my **Spotify Clone**! This is a front-end project built using only **
 
 ## ✨ Features
 
-- 🎵 **Play / Pause** individual songs
+- 🎵 Play songs
 - ⏮️ ⏭️ **Previous / Next** song navigation
 - 📃 **Song list** with cover art, name, and artist
 - 📊 **Progress bar** with dynamic update and seek feature
@@ -18,6 +18,8 @@ Welcome to my **Spotify Clone**! This is a front-end project built using only **
 - 🖼️ **Song info display** with image and metadata
 - 📱 **Responsive layout** — works on both desktop and mobile
 - ❌ **Hide player** functionality with close button
+* Note - This can play only one music file. If you want to listen to dynamic songs, please visit: [Spotify](https://open.spotify.com/)
+
 
 
 ---
@@ -26,7 +28,7 @@ Welcome to my **Spotify Clone**! This is a front-end project built using only **
 
 - **HTML** – Page structure and content
 - **CSS** – Layout, design, responsiveness
-- **JavaScript** – Dynamic behavior and music player logic
+- **JavaScript** –  music player logic
 - **GitHub Pages** – Deployment platform
 
 ---
@@ -68,11 +70,6 @@ If you have any feedback or suggestions, feel free to connect:
 - 🔗 LinkedIn: [Kapil Sehrawat](https://www.linkedin.com/in/kapil-sehrawat-318814288)
 - 💻 GitHub: [KapilSehrawat2005](https://github.com/KapilSehrawat2005)
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** – feel free to use, modify, and share it.
 
 ---
 
