@@ -584,7 +584,7 @@ body{
 .main-content .india-best > .india-best-head a:hover{
     text-decoration: underline;
     background-color: rgb(27, 25, 25);
-};
+}
 .main-content .india-best> .cards{
     display: flex;
     flex-wrap: wrap; 
@@ -755,11 +755,13 @@ footer .copyright p:hover{
     }
     
 }
-:root {
-    --primary-color: #1db954;
-    --dark-bg: #121212;
-    --light-bg: #181818;
-    --text-primary: #ffffff;
+@media (max-width : 685PX) {
+    .sidebar{
+        display : none;
+    }
+    .search-bar .search .browser-img ,.search p , input{
+        display: none;
+    }
 }
 .play-btn {
     position: absolute;
